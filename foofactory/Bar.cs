@@ -8,10 +8,11 @@ namespace foofactory
 {
     public class Bar
     {
-        public void Execute()
-        {
-            throw new NotImplementedException();
-        }
 
+        public IFooFactory FooFactory { get; set; }
+        public IList<IFoo> Execute()
+        {
+            return this.FooFactory.GetAll();
+        }
     }
 }
