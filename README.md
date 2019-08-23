@@ -17,7 +17,8 @@ En el proyecto  `foofactory` agregue los siguiente archivos
     ## IFooFactory.cs
     public interface IFooFactory
     {
-        Foo GetById(int id);
+        IList<IFoo> GetAll(int id);
+        void Save(IFoo foo);
     }
 ```
 
