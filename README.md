@@ -1,1 +1,1 @@
-# Intration Kaya
+# Integration Kata
