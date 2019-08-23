@@ -159,8 +159,8 @@ public void Execute_CallSomethingForTheOne()
 {
 	...
 	// Assert
-	factoryMock.Verify(x=>x.Save(mockFooTheOne.Object), Times.Once))
-	factoryMock.Verify(x => x.Save(mockFooAnother.Object), Times.Once))
+	factoryMock.Verify(x=>x.Save(mockFooTheOne.Object), Times.Once()))
+	factoryMock.Verify(x => x.Save(mockFooAnother.Object), Times.Never()))
 }
 ```
 ```csharp
