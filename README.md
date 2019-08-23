@@ -21,13 +21,6 @@ En el proyecto  `foofactory` agregue los siguiente archivos
 ```
 
 ```csharp
-    ## IFooFactory.cs
-    public interface IFooFactory
-    {
-        Foo GetById(int id);
-    }
-```
-```csharp
     ## Bar.cs
     public class Bar
     {
