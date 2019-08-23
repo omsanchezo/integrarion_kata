@@ -8,7 +8,7 @@ namespace foofactory
 {
     public interface IFooFactory
     {
-        IList<IFoo> GetAll(int id);
+        IList<IFoo> GetAll();
         void Save(IFoo foo);
     }
 }
