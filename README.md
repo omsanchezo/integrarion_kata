@@ -6,9 +6,10 @@ En el proyecto  `foofactory` agregue los siguiente archivos
 
 ```csharp
     ## Foo.css
-    public class Foo
+    public interface IFoo
     {
-        public string Name { get; set; }
+        string Name { get; set; }
+        void DoSomething();
     }
 ```
 
