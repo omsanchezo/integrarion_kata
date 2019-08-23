@@ -8,7 +8,7 @@ namespace foofactory
 {
     public class Bar
     {
-        public void Execute()
+        public IList<IFoo> Execute()
         {
             throw new NotImplementedException();
         }
